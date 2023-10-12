@@ -1,0 +1,29 @@
+
+# getBooks
+# GET http://localhost:3000/api/books
+
+
+# getbookbyID
+# GET http://localhost:3000/api/books/1
+
+# postBook
+# POST http://localhost:3000/api/books
+# Content-Type: application/json
+
+# {
+#     "Name": "raw",
+#     "Author": "ddddd"
+# }
+
+# PUT http://localhost:3000/api/books/3
+# Content-Type: application/json
+
+# {
+#     "Name": "ram",
+#     "Author": "xxxxx"
+# }
+
+# DELETE http://localhost:3000/api/books/3
+
+
+
