@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/css/style.css">
+    <title>Document</title>
+</head>
+
+<body>
+    <% if(books){ %>
+        <h1>Book Stor</h1>
+        <main class="container">
+            <% books.forEach((book)=> { %>
+                <div class="a-box">
+                    <div class="img-container">
+                        <div class="img-inner">
+                            <div class="inner-skew">
+                                <img src=<%=book.src %>>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="text-container">
+                        <h2>
+                            <%= book.name %>
+                        </h2>
+                        <h5>
+                            <%= book.author %>
+                        </h5>
+                        <div>
+                            <%= book.description %>
+                        </div>
+                        <h4>Buy Book</h4>
+                    </div>
+                </div>
+
+                <% })%>
+        </main>
+        <% } %>
+
+</body>
+
+</html>

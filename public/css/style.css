@@ -1,0 +1,94 @@
+HTML CSSResult Skip Results Iframe EDIT ON body {
+    text-align: center;
+    padding: 30px;
+    background: #f8f4f2;
+    font-family: Arial;
+}
+h1 {
+    text-align: center;
+    margin-top: 50px;
+    color: cadetblue;
+}
+
+.container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    margin-top: 70px;
+}
+
+.a-box {
+    width: 240px;
+    text-align: center;
+    margin: 10px;
+}
+
+.img-container {
+    height: 250px;
+    width: 200px;
+    overflow: hidden;
+    border-radius: 0px 0px 20px 20px;
+    display: inline-block;
+}
+
+.img-container img {
+    transform: skew(0deg, -13deg);
+    height: 290px;
+    margin: -20px 0px 0px 0px;
+}
+
+.inner-skew {
+    display: inline-block;
+    border-radius: 20px;
+    overflow: hidden;
+    padding: 0px;
+    transform: skew(0deg, 13deg);
+    font-size: 0px;
+    margin: 30px 0px 0px 0px;
+    background: #c8c2c2;
+    height: 250px;
+    width: 200px;
+}
+
+.text-container {
+    box-shadow: 0px 0px 10px 0px rgba(0, 0, 0, 0.2);
+    padding: 120px 20px 10px 10px;
+    border-radius: 20px;
+    background: #fff;
+    margin: -120px 0px 0px 0px;
+    line-height: 19px;
+    font-size: 14px;
+}
+
+.text-container h2,
+h4 {
+    margin: 20px 0px 10px 0px;
+    color: #04bcff;
+    font-size: 18px;
+}
+
+.title-container {
+    box-shadow: 0px 0px 10px 0px rgba(0, 0, 0, 0.2);
+    padding: 10px 20px 10px 10px;
+    border-radius: 20px;
+    background: #fff;
+    margin: -120px 0px 0px 0px;
+    line-height: 19px;
+    font-size: 14px;
+}
+
+.title-container h1 {
+    text-align: center;
+}
+.title-container h3 {
+    text-align: center;
+}
+.title-container .discription {
+    text-align: center;
+    font-size: 20px;
+    font-family: monospace;
+}
+.title-container h4 {
+    text-align: center;
+}
